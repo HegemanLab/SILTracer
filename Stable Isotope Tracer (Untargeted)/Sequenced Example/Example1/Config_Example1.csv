@@ -1,0 +1,23 @@
+,Parameters
+SingeDataSet or Sequence,Single Set
+Program Function,Generate New Feature List
+Select Isotopic Label,13C
+PremadeList,nan
+PreferCHNO,Yes
+MzMineUnlabeled,nan
+MzMineLabeled,nan
+Minimum Number of Labels,1
+Maximum Number of Labels,1
+Mass Window for Label,0.0002
+Retention Time Bin Size,0.5
+Mass Bin Size,0.002
+Minimum Intensity for Features,1000
+Minimum Binned Scans for Features,5
+Retention Time Window For Peak Height,0.1
+Regression Mass Window,0.002
+Minimum R2,0.0001
+RemovePlots,Remove
+PPM Error,5
+FullyorPartially,Partially
+TargetFormulas,Trppathwaymasses.xlsx
+FormulaListFile,Yes

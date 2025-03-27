@@ -1,0 +1,34 @@
+﻿Leave this column,Change this column,,
+,,,
+username,your login email,,
+password,your password,,
+adduct_choices,"List of adducts separated by a comma and a space. Example: [M + H]+, [M + Na]+, [M - H2O + H]+, [M - H3N + H]+",,
+zodiac_option,True/False,,
+project_name,name identifier for project,,
+ppm_error,Desired mass ppm error threshold for matching algorithm,,
+mass_accuracy,Mass accuracy (ppm) for Sirius analysis,,
+,,,
+,,,
+Below is a list of example adduct choices from the SIRIUS GUI for positive and negative ion modes.,,,
+Custom adducts can be used but must follow Iupac convention for the matching to work. For example the adduct [M - NH3 + H]+ should be written as [M - H3N + H]+.,,,
+,,,
+1. [M + Na]+,,,1. [M + H2O - H]-
+2. [2M + Na]+,,,2. [M - CH3 - H]-
+3. [M + C3H8O + H]+,,,3. [M - ClH - H]-
+4. [M + C2H3N + H]+,,,4. [M - H]-
+5. [M + CH4O + H]+,,,5. [M - CH2O3 - H]-
+6. [M + C2H6OS + H]+,,,6. [2M - H]-
+7. [M]+,,,7. [M]-
+8. [2M + H]+,,,8. [M - H3N - H]-
+9. [M - H + K + K]+,,,9. [M - H + Na - H]-
+10. [M + H]+,,,10. [M + C2H4O2 - H]-
+11. [M - H4O2 + H]+,,,11. [M + C2H4O2 - H]-
+12. [M + K]+,,,12. [M + CH2O2 - H]-
+13. [2M + K]+,,,13. [M - CO2 - H]-
+14. [M + C2H3N + Na]+,,,14. [M - H2O - H]-
+15. [M + C4H6N2 + H]+,,,15. [M + C2H3N - H]-
+16. [M - H2O + H]+,,,16. [2M + Cl]-
+17. [M - H + Na + Na]+,,,17. [M + Cl]-
+18. [M + H2O + H]+,,,18. [M - H + K - H]-
+19. [M + H3N + H]+,,,19. [M + Br]-
+,,,20. [2M + Br]-
